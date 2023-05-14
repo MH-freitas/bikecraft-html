@@ -1,0 +1,107 @@
+ .bicicletas-lista{
+    padding: 100px 0px;
+ }
+
+.bicicletas-lista ul{
+    display: flex;
+    padding: 0px 40px ;
+    max-width: 1400px;
+    margin-right: auto;
+    min-width: 800px;
+}
+
+.bicicletas-lista l1{
+    min-width: 800px;
+    flex: 1;
+}
+
+.bicicletas-lista h2{
+    padding: 0px 180px;
+}
+
+.bicicletas-lista a{
+    display: block;
+}
+
+.bicicletas-lista h3::before{
+    content: "";
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background-color: #ebaf00 ;
+    align-items: center;
+    transition: 0.2s;
+}
+.bicicletas-lista a:hover h3:before{
+    width: 24px;
+}
+
+.bicicletas-lista li span{
+    padding: 16px;
+}
+
+@media (max-width:800px){
+    .bicicletas-lista{
+        padding-bottom: 20px;
+    }
+    .bicicletas-lista ul{
+        gap: 20px;
+    }
+}
+
+.bicicletas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 60px 60px;
+}
+
+.bicicletas img{
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+}
+
+.bicicletas h2{
+    font-weight: bold;
+    position: relative;
+}
+
+.bicicletas p{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.bicicletas li{
+    margin-top: 20px;
+    display: flex;
+}
+
+.bicicletas li:last-child{
+    margin-bottom: 20px;
+}
+
+.bicicletas ul{
+    position: relative;
+}
+
+.beneficios img{
+    width: 25px;
+    margin-right: 10px ;
+}
+
+.beneficios a{
+    margin-top: 10px;
+}
+
+.bicicletas-bg{
+    background-color: #111;
+    padding: 5px;
+}
+
+.bicicletas span{
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+

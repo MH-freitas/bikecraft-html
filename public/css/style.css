@@ -1,0 +1,17 @@
+        /* home */
+@import "/global/introducao.css";
+@import "/global/bicicletas-lista.css";
+@import "/global/tecnologia.css";
+@import "/global/parceiros.css";
+@import "/global/depoimento.css";
+@import "/global/seguros.css";
+@import "/global/rodape.css";
+
+        /*reutilizaveis*/
+@import "/global/header.css";
+@import "/global/buttom.css";
+@import "/global/tipografia.css";
+@import "/global/ultilidades.css";
+
+        /*termos*/
+@import "/global/termos.css";

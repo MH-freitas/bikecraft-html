@@ -1,0 +1,52 @@
+
+.header-bg{
+    background-color: #000000;
+}
+
+.header{
+    display: flex;
+    text-transform:capitalize;
+    gap: 0.4rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.header a img{
+    margin-left: 60px;
+}
+
+.header-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-family: 'poppins';
+    font-weight: 400;
+} 
+
+.header-menu a{ 
+    border: 2px solid transparent;
+    height: -3px;
+    margin-top: 30px;
+    text-decoration: none;
+    display: block;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    color:white;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}
+
+.header-menu a:after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0px;
+    background-color: white;
+    margin-top: 2px;
+}
+
+.header-menu a:hover:after{
+    width: 100%;
+    transition: 0.3s;
+}

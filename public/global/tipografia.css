@@ -1,0 +1,51 @@
+.texto-grande{
+    font-size: 4rem;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+
+.texto-medio{
+    font-size: 2.3rem;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+
+.texto-pequeno{
+    font-size: 1.5rem;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+
+.texto-05{
+    font-size: 1.25rem;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+
+.texto-0{
+    font-size: 1rem;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+
+.cursiva{
+    font-family: 'Dancing Script';
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.cor-1{
+    color: gray;
+}
+
+.cor-2{
+    color: #ebaf00;
+}
+
+.cor-3{
+    color: white;
+}
+
+.cor-4{
+    color: #000;
+}

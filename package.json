@@ -1,0 +1,15 @@
+{
+  "name": "bikecraft-html",
+  "version": "1.0.0",
+  "description": "- digite no terminal \"npm run dev\"\r - depois abra o link http://localhost:3131",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}

@@ -1,0 +1,33 @@
+.depoimento{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ebaf00;
+}
+
+.depoimento-conteudo{
+    margin-top: 180px;
+    color: #000;
+}
+
+.depoimento-conteudo span{
+    margin-left: 450px;
+    color: #494141;
+}
+
+.depoimento-conteudo p{
+    position: relative;
+}
+
+.depoimento p::before{
+   content: '“';
+   font-size: 5rem;
+   position: absolute;
+   left: -40px;
+   top: -10px;
+}
+
+.depoimento p::after{
+   content: '” ';
+   font-size: 5rem;
+   position: absolute;
+}

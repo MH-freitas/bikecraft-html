@@ -1,0 +1,46 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.botao {
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#ebaf00,darkgoldenrod);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-transform: uppercase;
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    color: var(--cor-p5);
+    max-width: max-content;
+    border: none;
+    cursor: pointer;
+}
+
+
+.botao-prata {
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#9c9c9c,#9c9c9c);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-transform: uppercase;
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    color: var(--cor-p5);
+    max-width: max-content;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-prata:hover{
+    color:white;
+}
+
+.botao:hover{
+   color:white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
