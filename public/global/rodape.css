@@ -16,6 +16,10 @@
     font-weight: bold;
 }
 
+.rodape-contato p{
+    margin-left: -5px;
+}
+
 .rodape-contato span{
     margin-bottom: 20px;
 }

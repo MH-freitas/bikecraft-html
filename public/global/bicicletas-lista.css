@@ -69,6 +69,7 @@
 .bicicletas p{
     margin-bottom: 10px;
     margin-top: 20px;
+    margin-left: -5px;
 }
 
 .bicicletas li{
@@ -94,7 +95,7 @@
 }
 
 .bicicletas-bg{
-    background-color: #111;
+    background-color: #000;
     padding: 5px;
 }
 

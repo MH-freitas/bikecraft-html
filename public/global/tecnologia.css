@@ -14,6 +14,7 @@
 
 .tecnologia-conteiner p{
   margin-bottom: 40px;
+  margin-left:-5px ;
 }
 
 .tecnologia-img img{ 
@@ -37,6 +38,7 @@
     margin-bottom: 8px;
     width: max-content;
 }
+
 
 .tecnologia-itens img{
     width: 24px;

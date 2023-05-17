@@ -1,0 +1,129 @@
+.contatos-bg{
+  background-color: #111;
+  box-shadow: inset 0 -300px #f1f1f1
+}
+
+.contatos-conteiner h1{
+   padding: 40px 60px;
+}
+
+.contatos{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px 60px;
+}
+
+
+.contatos-lojas{
+   background-color: black;
+}
+
+.contatos-lojas ul{
+    margin: 40px 20px;
+}
+
+.contatos-lojas li{
+    margin: 20px;
+}
+
+.contatos-lojas h2{
+    margin: 40px;
+}
+
+.contatos-lojas img{
+    margin-bottom: 5px;
+}
+
+.contatos-img{
+    display: flex;
+    margin: 40px;
+    gap: 30px;
+}
+
+.contatos-info{
+   background-color: white;
+}
+
+.contatos-info a{
+    margin: 20px 40px;
+}
+
+.contatos-info p{
+    margin-top: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contatos-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.contatos-info input{
+    width: 100%;
+    height: 40px;
+}
+
+.contatos-info textarea{
+    width: 100%;
+    height: 100px;
+}
+
+.contatos-info2{
+    margin: 40px;
+}
+
+.localizacao-bg{
+    background-color: #f1f1f1;
+    padding-bottom: 80px ;
+}
+
+.localizacao-bg h1{
+    padding-top: 80px;
+    padding-left: 60px;
+}
+
+.localizacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 60px;
+    gap: 20px;
+}
+
+.localizacao h2,p{
+    margin: 20px;
+    
+}
+
+
+.rj{
+    background-color: white;
+}
+
+.rj img{
+    max-width: 100%;
+}
+
+.sp{
+    background-color: white;
+}
+
+.sp img{
+    max-width: 100%;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-left:2px solid gray ;
+}
+
+.info2{
+    border-left:2px solid gray ;
+}
+
+#horario{
+    font-weight: bold;
+    font-size: 18px;
+}
